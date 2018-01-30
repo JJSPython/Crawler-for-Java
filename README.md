@@ -16,7 +16,7 @@
   - **缺點**: 每次執行真實的瀏覽器(有幽靈模擬器不過還是會執行)，使用資源過大。
 - [Unirest](http://unirest.io/)
   - **優點**: 速度快，撰寫相當方便，能夠直接輸出Json格式，傳遞Data相當方便使用(目前主力使用)。
-  - **缺點**: Cookie 支援度不高， JavaScipt 不支援，有一項 Bug 設定一次以上的 TimeOut 會造成 Thread 的滯留。
+  - **缺點**: Cookie 支援度不高， JavaScript 不支援，有一項 Bug 設定一次以上的 TimeOut 會造成 Thread 的滯留。
 ## Parser
 - [Jsoup](https://jsoup.org/)
 - [Jsoup測試](https://try.jsoup.org/)
