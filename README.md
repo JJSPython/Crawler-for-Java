@@ -7,7 +7,7 @@
   - **缺點**: POST 時遇到 payload 格式(聽說最新版本已支援尚未測試...)，不支援 ConnctionTimeOut 只能統一設定，撰寫 PostDate 相當的麻煩， JavaScript 不支援。
 - [HttpURLConnction](https://docs.oracle.com/javase/7/docs/api/java/net/HttpURLConnection.html/)
   - **優點**: 能夠設定很詳細的連線選項。
-  - 缺點: 在撰寫上非常的麻煩， JavaScript 不支援。
+  - **缺點**: 在撰寫上非常的麻煩， JavaScript 不支援。
 - [WebClient](https://cxf.apache.org/javadoc/latest/org/apache/cxf/jaxrs/client/WebClient.html/)
   - **優點**: 能夠模擬瀏覽器上的大部分動作，更新很快。
   - **缺點**: 執行相當的慢，某些功能要等待更新。
@@ -28,3 +28,6 @@
 5. 表達式: 小於 N 列、取得包含 N 數量以上，取得包含 N 數量，包含 X 元素，不包含 X ，有 X 內容之容器，完全符合 X 內容之容器，正則表達式過濾，正則表達式取得。
 ## ConectionStep
 ## Example Website
+- [練習處理ASP.Net VIEWSTATE的處理](http://quotes.toscrape.com/search.aspx)
+  - **建議先自行尋找方法**
+  - [解法](https://blog.scrapinghub.com/2016/04/20/scrapy-tips-from-the-pros-april-2016-edition/)
